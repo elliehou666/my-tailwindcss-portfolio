@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-const ProjectSingle = ({ title, category, image }) => {
+const ProjectSingle = ({ title, category, image, projectId, path }) => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -12,7 +12,7 @@ const ProjectSingle = ({ title, category, image }) => {
 				delay: 0.15,
 			}}
 		>
-			<Link to="/projects/single-project" aria-label="Single Project">
+			<Link to={path} aria-label="Single Project">
 				<div className="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer mb-10 sm:mb-0 hover:shadow-xl">
 					<div className="group-hover:bg-black opacity-70 w-full h-full absolute z-40 transition-all duration-300"></div>
 					<div>

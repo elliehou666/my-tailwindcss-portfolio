@@ -101,6 +101,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								projectId={project.projectId}
+								path={project.path}
 							/>
 					  ))
 					: searchProject
@@ -110,6 +112,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								projectId={project.projectId}
+								path={project.path}
 							/>
 					  ))
 					: projects.map((project) => (
@@ -118,6 +122,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								projectId={project.projectId}
+								path={project.path}
 							/>
 					  ))}
 			</div>

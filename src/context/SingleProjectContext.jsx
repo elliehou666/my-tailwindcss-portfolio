@@ -1,20 +1,24 @@
-import { useState, createContext } from 'react';
-import { singleProjectData as singleProjectDataJson } from '../data/singleProjectData';
+import { useState, createContext, useContext } from 'react';
+import { singleProjectData as singleProjectDataList } from '../data/singleProjectData';
 
 const SingleProjectContext = createContext();
 
 export const SingleProjectProvider = ({ children }) => {
-	const [singleProjectData, setSingleProjectData] = useState(
-		singleProjectDataJson
-	);
+    const [singleProjectData, setSingleProjectData] = useState(singleProjectDataList);
 
-	return (
-		<SingleProjectContext.Provider
-			value={{ singleProjectData, setSingleProjectData }}
-		>
-			{children}
-		</SingleProjectContext.Provider>
-	);
+    const findProjectById = (id) => {
+        return singleProjectData.find(project => project.id === id);
+    };
+
+    return (
+        <SingleProjectContext.Provider
+            value={{ singleProjectData, setSingleProjectData, findProjectById }}
+        >
+            {children}
+        </SingleProjectContext.Provider>
+    );
 };
+
+export const useSingleProjectContext = () => useContext(SingleProjectContext);
 
 export default SingleProjectContext;

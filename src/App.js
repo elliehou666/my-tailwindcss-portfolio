@@ -48,8 +48,12 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/single-project"
-								element={<ProjectSingle />}
+								path="projects/gpi"
+								element={<ProjectSingle projectId="GPI"/>}
+							/>
+							<Route
+								path="projects/findaopro"
+								element={<ProjectSingle projectId="Findao"/>}
 							/>
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />

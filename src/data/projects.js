@@ -9,7 +9,7 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'InvestGPI: An Alternative Investment Platform',
 		category: 'Web Application',
 		img: WebImage2,
 		ProjectHeader: {
@@ -17,35 +17,39 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
+		path: "/projects/gpi",
+		projectId: 'GPI',
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: MobileImage2,
-	},
-	{
-		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
+		title: 'FinDao Community: A Social & Blockchain Application',
 		category: 'Web Application',
-		img: WebImage1,
+		img: MobileImage2,
+		path: "/projects/findaopro",
+		projectId: 'Findao',
 	},
+	// {
+	// 	id: 3,
+	// 	title: 'Project Management UI',
+	// 	category: 'UI/UX Design',
+	// 	img: UIImage1,
+	// },
+	// {
+	// 	id: 4,
+	// 	title: 'Cloud Storage Platform',
+	// 	category: 'UI/UX Design',
+	// 	img: UIImage2,
+	// },
+	// {
+	// 	id: 5,
+	// 	title: 'React Social App',
+	// 	category: 'Mobile Application',
+	// 	img: MobileImage1,
+	// },
+	// {
+	// 	id: 6,
+	// 	title: 'Apple Design System',
+	// 	category: 'Web Application',
+	// 	img: WebImage1,
+	// },
 ];

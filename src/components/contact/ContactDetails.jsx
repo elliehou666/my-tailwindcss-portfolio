@@ -1,29 +1,33 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import profileImage from '../../images/typing.svg';
 
 const contacts = [
-	{
-		id: 1,
-		name: 'Your Address, Your City, Your Country',
-		icon: <FiMapPin />,
-	},
+	// {
+	// 	id: 1,
+	// 	name: 'Your Address, Your City, Your Country',
+	// 	icon: <FiMapPin />,
+	// },
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'suuuuperfrankie@gmail.com',
 		icon: <FiMail />,
 	},
-	{
-		id: 3,
-		name: '555 8888 888',
-		icon: <FiPhone />,
-	},
+	// {
+	// 	id: 3,
+	// 	name: '555 8888 888',
+	// 	icon: <FiPhone />,
+	// },
 ];
 
 const ContactDetails = () => {
 	return (
 		<div className="w-full lg:w-1/2">
+			<div className="w-1/3 mb-7 sm:mb-0 flex justify-center items-center">
+      			<img src={profileImage} className="rounded-lg w-96" alt="" />
+   			</div>
 			<div className="text-left max-w-xl px-6">
 				<h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
-					Contact details
+					Contact Details
 				</h2>
 				<ul className="font-general-regular">
 					{contacts.map((contact) => (

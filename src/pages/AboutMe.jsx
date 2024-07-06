@@ -1,6 +1,7 @@
 import AboutMeBio from '../components/about/AboutMeBio';
 import AboutCounter from '../components/about/AboutCounter';
 import AboutClients from '../components/about/AboutClients';
+import AboutMeSkills from '../components/about/AboutMeSkills';
 import { AboutMeProvider } from '../context/AboutMeContext';
 import { motion } from 'framer-motion';
 
@@ -16,11 +17,21 @@ const About = () => {
 				<AboutMeBio />
 			</motion.div>
 
+			{/* <motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1, delay: 1 }}
+				exit={{ opacity: 0 }}
+				className="container mx-auto"
+			>
+				<AboutMeSkills />
+			</motion.div> */}
+
 			{/** Counter without paddings */}
 			{/* <motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
+				className="container mx-auto"
 			>
 				<AboutCounter />
 			</motion.div> */}

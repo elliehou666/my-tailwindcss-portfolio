@@ -1,4 +1,4 @@
-import profileImage from '../../images/profile.jpeg';
+import profileImage from '../../images/profile.svg';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 
@@ -7,11 +7,11 @@ const AboutMeBio = () => {
 
 	return (
 		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
+			<div className="w-full sm:w-1/3 mb-7 sm:mb-0">
 				<img src={profileImage} className="rounded-lg w-96" alt="" />
 			</div>
 
-			<div className="font-general-regular w-full sm:w-3/4 text-left">
+			<div className="font-general-regular w-full sm:w-2/3 text-justify">
 				{aboutMe.map((bio) => (
 					<p
 						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
