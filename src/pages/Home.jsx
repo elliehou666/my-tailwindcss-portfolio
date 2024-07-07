@@ -21,9 +21,9 @@ const Home = () => {
 				<ProjectsGrid></ProjectsGrid>
 			</ProjectsProvider> */}
 
-            <div className="block py-6 border-t-2 border-primary-light dark:border-secondary-dark sm:flex sm:gap-10 mt-10 sm:mt-20">
+            <div className="block border-t-2 border-primary-light dark:border-secondary-dark sm:flex sm:gap-10 mt-10 sm:mt-20">
 
-			<div className="mt-8 sm:mt-10 sm:w-2/3 w-64 flex flex-col items-center">
+			<div className="mt-8 sm:mt-10 sm:w-2/3 w-64 flex flex-col">
 					<p className='text-ternary-dark dark:text-ternary-light text-md test-justify'>To delve deeper into my work and explore the innovative projects I've been involved in, I invite you to visit my Projects page. There, you’ll find detailed descriptions, technical insights, and the impact of my various projects.</p>
 
 				<a

@@ -38,8 +38,8 @@ const socialLinks = [
 
 const AppFooter = () => {
 	return (
-		<div className="container mx-auto pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
-  			<div className="flex flex-row">
+		<div className="container mx-auto pt-20 sm:pt-30 pb-8 mt-10">
+  			<div className="flex flex-row border-t-2 border-primary-light dark:border-secondary-dark sm:gap-10">
     			<div className="w-1/3 mb-7 sm:mb-0 flex justify-center items-center">
       				<img src={profileImage} className="rounded-lg w-96" alt="" />
    				 </div>

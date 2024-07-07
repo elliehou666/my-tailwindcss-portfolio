@@ -39,7 +39,7 @@ const ProjectsGrid = () => {
 					className="
                         flex
                         justify-between
-                        border-b border-primary-light
+                        border-b-2 border-primary-light
                         dark:border-secondary-dark
                         pb-3
                         gap-3
