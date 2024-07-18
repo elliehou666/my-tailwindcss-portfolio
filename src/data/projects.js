@@ -21,7 +21,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'FinDao Community: A Social & Blockchain Application',
+		title: 'FinDao Community: Social Media & Blockchain Applications',
 		category: 'Web Application',
 		img: FinDao1,
 		path: "/projects/findaopro",

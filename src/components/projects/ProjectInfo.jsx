@@ -91,6 +91,21 @@ const ProjectInfo = ({projectId}) => {
 
 			{/*  Single project right section */}
 			<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
+				{targetProject.ProjectInfo.Demo && targetProject.ProjectInfo.Demo.trim() !== '' && (
+    				<>
+     				<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+        				Demo Video
+     				</p>
+      				<p className="font-general-regular text-ternary-dark dark:text-ternary-light text-lg mb-7 hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
+        				<a
+          					href={targetProject.ProjectInfo.Demo}
+          					className='hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+        				>
+          					{targetProject.ProjectInfo.Demo}
+        				</a>
+     				</p>
+    				</>
+  				)}
 				<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 					{targetProject.ProjectInfo.ProjectDetailsHeading}
 				</p>

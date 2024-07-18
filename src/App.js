@@ -55,6 +55,18 @@ function App() {
 								path="projects/findaopro"
 								element={<ProjectSingle projectId="Findao"/>}
 							/>
+							<Route
+								path="projects/findaoapp"
+								element={<ProjectSingle projectId="FindaoApp"/>}
+							/>
+							<Route
+								path="projects/mining"
+								element={<ProjectSingle projectId="MiningApp"/>}
+							/>
+							<Route
+								path="projects/exchange"
+								element={<ProjectSingle projectId="FindaoExchange"/>}
+							/>
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
 						</Routes>
