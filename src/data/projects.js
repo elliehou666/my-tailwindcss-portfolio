@@ -37,7 +37,7 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		title: 'BTC Mining App',
+		title: 'Crypto Mining App',
 		category: 'Blockchain',
 		img: FinDao3,
 		path: "/projects/mining",
