@@ -150,21 +150,7 @@ export const singleProjectData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				// {
-				// 	id: 1,
-				// 	title: 'Mobile UI',
-				// 	img: Image4,
-				// },
-				// {
-				// 	id: 2,
-				// 	title: 'Web Application',
-				// 	img: Image5,
-				// },
-				// {
-				// 	id: 3,
-				// 	title: 'UI Design',
-				// 	img: Image6,
-				// },
+				
 			],
 		},
 	},
@@ -209,11 +195,6 @@ export const singleProjectData = [
 				// 	id: 3,
 				// 	title: 'Website',
 				// 	details: 'https://findao.com/en',
-				// },
-				// {
-				// 	id: 4,
-				// 	title: 'Phone',
-				// 	details: '555 8888 888',
 				// },
 			],
 			ObjectivesHeading: 'Objective',
@@ -278,6 +259,7 @@ export const singleProjectData = [
 				{
 					id: 1,
 					title: 'Mobile UI',
+					path: "/projects/findaoapp",
 					img: FindaoApp2,
 				},
 			],
@@ -320,16 +302,6 @@ export const singleProjectData = [
 					title: 'Role',
 					details: 'Full-stack Development, Mobile App Development',
 				},
-				// {
-				// 	id: 3,
-				// 	title: 'Demo',
-				// 	details: '',
-				// },
-				// {
-				// 	id: 4,
-				// 	title: 'Phone',
-				// 	details: '555 8888 888',
-				// },
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
@@ -360,6 +332,7 @@ export const singleProjectData = [
 				{
 					id: 1,
 					title: 'Mobile UI',
+					path: "/projects/findaopro",
 					img: Image4,
 				},
 			],
@@ -402,16 +375,6 @@ export const singleProjectData = [
 					title: 'Role',
 					details: 'Full-stack Development, Blockchain Development',
 				},
-				// {
-				// 	id: 3,
-				// 	title: 'Website',
-				// 	details: 'https://findao.com/en',
-				// },
-				// {
-				// 	id: 4,
-				// 	title: 'Phone',
-				// 	details: '555 8888 888',
-				// },
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
@@ -473,88 +436,6 @@ export const singleProjectData = [
 		},
 	},
 	{
-		id: 'FindaoApp',
-		ProjectHeader: {
-			title: 'FinDao Mobile App',
-			publishDate: 'May, 2023',
-			tags: 'Mobile Application',
-		},
-		ProjectImages: [
-			{
-				id: 1,
-				title: 'Image 1',
-				img: FindaoApp1,
-			},
-			{
-				id: 2,
-				title: 'Image 2',
-				img: FindaoApp2,
-			},
-			{
-				id: 3,
-				title: 'Image 3',
-				img: FindaoApp3,
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'About',
-			CompanyInfo: [
-				{
-					id: 1,
-					title: 'Company',
-					details: 'FinDao.com, INC.',
-				},
-				{
-					id: 2,
-					title: 'Role',
-					details: 'Full-stack Development, Mobile App Development',
-				},
-				// {
-				// 	id: 3,
-				// 	title: 'Demo',
-				// 	details: '',
-				// },
-				// {
-				// 	id: 4,
-				// 	title: 'Phone',
-				// 	details: '555 8888 888',
-				// },
-			],
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-			Technologies: [
-				{
-					title: 'Tools & Technologies',
-					techs: [
-						'Flutter',
-						'Dart',
-						'JavaScript',
-					],
-				},
-			],
-			Demo: `https://drive.google.com/file/d/1rDBAH-IE8HmkwRfuOj8V0M39X-dywh73/view?usp=sharing`,
-			ProjectDetailsHeading: 'Description',
-			ProjectDetails: [
-				{
-					id: 1,
-					details:
-						`This versatile mobile app, developed with Flutter and Dart, is designed to keep users at the forefront of blockchain news and community insights. The cross-platform app enables users to like and favorite the latest blockchain news, articles from key opinion leaders (KOLs), and even publish their own articles. Users can engage with the community through daily votes to earn credit points, which can be redeemed for exclusive FinDao NFTs. By following or unfollowing other users, the newsfeed is tailored to individual interests based on the users followed and the articles liked or favorited. This dynamic space fosters a seamless flow of information and community-driven content.`,
-				},
-			],
-		},
-		RelatedProject: {
-			title: 'Related Projects',
-			Projects: [
-				{
-					id: 1,
-					title: 'Mobile UI',
-					img: Image4,
-				},
-			],
-		},
-	},
-	{
 		id: 'FindaoExchange',
 		ProjectHeader: {
 			title: 'FinDao Exchange: Crypto Trading Platform',
@@ -586,16 +467,6 @@ export const singleProjectData = [
 					title: 'Role',
 					details: 'Full-stack Development, Blockchain Development',
 				},
-				// {
-				// 	id: 3,
-				// 	title: 'Website',
-				// 	details: 'https://findao.com/en',
-				// },
-				// {
-				// 	id: 4,
-				// 	title: 'Phone',
-				// 	details: '555 8888 888',
-				// },
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:

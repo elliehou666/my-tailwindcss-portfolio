@@ -1,4 +1,5 @@
 import {useSingleProjectContext} from '../../context/SingleProjectContext';
+import { Link } from 'react-router-dom';
 
 const ProjectRelatedProjects = ({projectId}) => {
 	const { findProjectById } = useSingleProjectContext();
@@ -18,12 +19,14 @@ const ProjectRelatedProjects = ({projectId}) => {
 			<div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
 				{targetProject.RelatedProject.Projects.map((project) => {
 					return (
-						<img
-							src={project.img}
-							className="rounded-xl cursor-pointer"
-							alt={project.title}
-							key={project.id}
-						/>
+						<Link to={project.path}>
+							<img
+								src={project.img}
+								className="rounded-xl cursor-pointer"
+								alt={project.title}
+								key={project.id}
+							/>
+						</Link>
 					);
 				})}
 			</div>
