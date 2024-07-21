@@ -29,7 +29,7 @@ const ProjectInfo = ({projectId}) => {
 													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
 													: ''
 											}
-											aria-label="Project Website and Phone"
+											target="_blank"
 										>
 											{info.details}
 										</a>
@@ -99,6 +99,7 @@ const ProjectInfo = ({projectId}) => {
       				<p className="font-general-regular text-ternary-dark dark:text-ternary-light text-lg mb-7 hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
         				<a
           					href={targetProject.ProjectInfo.Demo}
+							target="__blank"
           					className='hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
         				>
           					{targetProject.ProjectInfo.Demo}
